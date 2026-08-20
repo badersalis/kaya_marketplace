@@ -1,0 +1,26 @@
+{
+  "name": "kaya-platform",
+  "private": true,
+  "workspaces": [
+    "apps/api",
+    "apps/web"
+  ],
+  "scripts": {
+    "dev:api": "npm run dev --workspace apps/api",
+    "dev:worker": "npm run worker --workspace apps/api",
+    "dev:web": "npm run dev --workspace apps/web",
+    "seed": "npm run seed --workspace apps/api",
+    "migrate": "npm run migrate --workspace apps/api",
+    "build": "npm run build --workspace apps/api && npm run build --workspace apps/web"
+  },
+  "overrides": {
+    "@react-jvectormap/core": {
+      "react": "^16.8.0 || ^17 || ^18 || ^19",
+      "react-dom": "^16.8.0 || ^17 || ^18 || ^19"
+    },
+    "@react-jvectormap/world": {
+      "react": "^16.8.0 || ^17 || ^18 || ^19",
+      "react-dom": "^16.8.0 || ^17 || ^18 || ^19"
+    }
+  }
+}
