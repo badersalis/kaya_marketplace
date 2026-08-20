@@ -1,6 +1,6 @@
 # Kaya
 
-Cross-border order & delivery orchestration platform — buy from Jumia (and other supported stores, via a pluggable adapter registry) on behalf of customers in Niamey who can't order there directly, and hand parcels off to a logistics partner for the last mile.
+Cross-border order & delivery orchestration platform — buy from Jumia (and other supported stores, via a pluggable adapter registry) on behalf of customers in african landlocked countries who can't order there directly, and hand parcels off to a logistics partner for the last mile.
 
 ## Stack
 
